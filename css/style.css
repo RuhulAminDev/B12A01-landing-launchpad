@@ -172,5 +172,30 @@ nav{
     color: #B3B3B3;
     font-weight: 300;
     margin-top: 5px;
-
+}
+/* focus better */
+.focus_better{
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius: 14px;
+    margin-bottom: 93.2px;
+}
+.better_title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    padding-top: 71px;
+}
+.better_description{
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.better_img{
+    margin-top: 20px;
+    padding-bottom: 71px;
+    
+}
+.better_imge{
+    border-radius: 48px;
 }
