@@ -22,14 +22,19 @@
     border: none;
     border-radius: 10px;
 }
-
-/* nav */
+/* main */
 .header{
     width: 1440px;
     height: 698px;
     margin-bottom: 116px;
     background-image: url(../Assets/Hero-bg.png);
 }
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* nav */
 nav{
     display: flex;
     align-items: center;
@@ -52,4 +57,33 @@ nav{
     font-size: 65px;
     color: #252432;
     margin-bottom: 37px;
+}
+/* action */
+.action-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 220px;
+    align-items: center;
+}
+.actions{
+    align-items: flex-start;
+}
+.action{
+    margin-bottom: 116px;
+}
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.action-description{
+    font-size: 24px;
+    color: rgba(45, 36, 50, 0.5); /* #2D2432 = rgb(45, 36, 50) */
+    margin-bottom: 23px;
+}
+.action-img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
 }
